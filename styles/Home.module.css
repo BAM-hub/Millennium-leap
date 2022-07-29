@@ -6,4 +6,9 @@
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+  background-image: url("../public/project-management.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
 }
