@@ -1,15 +1,13 @@
-import styles from "../styles/Home.module.css";
-import logogo from "../public/HeroLogo.svg";
-import Image from "next/image";
+import Description from "../components/dashboard/Description";
+import Hero from "../components/dashboard/Hero";
 import NavBar from "../components/layout/NavBar";
 
 export default function Home() {
   return (
-    <div>
+    <div className='w-90 overflow-hidden'>
       <NavBar />
-      <div className={styles.hero}>
-        <Image src={logogo} alt='logo' height={400} width={600} />
-      </div>
+      <Hero />
+      <Description />
     </div>
   );
 }
