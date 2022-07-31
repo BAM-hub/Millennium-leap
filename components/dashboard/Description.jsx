@@ -1,17 +1,15 @@
-import React from "react";
-
-function Description() {
+const Description = () => {
   return (
-    <div className='m-10 mt- 10 py-12 bg-gray-700 rounded-sm'>
+    <div className='m-10 mt- 10 py-12 bg-gray-800 rounded-sm'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='lg:text-center'>
           <h2 className='text-base text-indigo-500 font-semibold tracking-wide uppercase'>
             Millennium Leap
           </h2>
-          <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
+          <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-300 sm:text-4xl'>
             A better way to do business
           </p>
-          <p className='mt-4 max-w-2xl text-xl text-gray-250 lg:mx-auto'>
+          <p className='mt-4 max-w-2xl text-xl text-gray-300 lg:mx-auto'>
             Millennium leap is on a mission to make a place where people can
             communicate and do business, Discover available services and options
             and benefit their businesses.
@@ -39,11 +37,11 @@ function Description() {
                     />
                   </svg>
                 </div>
-                <p className='ml-16 text-lg leading-6 font-medium text-gray-900'>
+                <p className='ml-16 text-lg leading-6 font-medium text-gray-300'>
                   High quality
                 </p>
               </dt>
-              <dd className='mt-2 ml-16 text-base text-gray-500'>
+              <dd className='mt-2 ml-16 text-base text-gray-400'>
                 Choose form the wide range of services with competitive pricing.
               </dd>
             </div>
@@ -67,11 +65,11 @@ function Description() {
                     />
                   </svg>
                 </div>
-                <p className='ml-16 text-lg leading-6 font-medium text-gray-900'>
+                <p className='ml-16 text-lg leading-6 font-medium text-gray-300'>
                   End To End Contracts
                 </p>
               </dt>
-              <dd className='mt-2 ml-16 text-base text-gray-500'>
+              <dd className='mt-2 ml-16 text-base text-gray-400'>
                 Contracts are done in private between ends, We enforce no rules.
               </dd>
             </div>
@@ -95,11 +93,11 @@ function Description() {
                     />
                   </svg>
                 </div>
-                <p className='ml-16 text-lg leading-6 font-medium text-gray-900'>
+                <p className='ml-16 text-lg leading-6 font-medium text-gray-300'>
                   Instant business
                 </p>
               </dt>
-              <dd className='mt-2 ml-16 text-base text-gray-500'>
+              <dd className='mt-2 ml-16 text-base text-gray-400'>
                 Start Doing business fast, Brows available services with helpful
                 insights to pick.
               </dd>
@@ -124,11 +122,11 @@ function Description() {
                     />
                   </svg>
                 </div>
-                <p className='ml-16 text-lg leading-6 font-medium text-gray-900'>
+                <p className='ml-16 text-lg leading-6 font-medium text-gray-300'>
                   Direct communication
                 </p>
               </dt>
-              <dd className='mt-2 ml-16 text-base text-gray-500'>
+              <dd className='mt-2 ml-16 text-base text-gray-400'>
                 Find the best fit for you and connect directly.
               </dd>
             </div>
@@ -137,6 +135,6 @@ function Description() {
       </div>
     </div>
   );
-}
+};
 
 export default Description;
