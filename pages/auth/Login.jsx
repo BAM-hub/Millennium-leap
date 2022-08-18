@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Header from "../../components/auth/Header";
-import TextInput from "../../components/auth/TextInput";
-import PasswordInput from "../../components/auth/PasswordInput";
+import Input from "../../components/auth/Input";
 import Actions from "../../components/auth/Actions";
 import logo from "../../public/HeroLogo.svg";
 
@@ -15,7 +14,7 @@ const Login = () => {
               <Image
                 className='mx-auto h-12 w-auto'
                 src={logo}
-                alt='Workflow'
+                alt='millennnium'
                 height={100}
                 width={200}
               />
@@ -25,8 +24,8 @@ const Login = () => {
           <form className='mt-8 space-y-6'>
             <input type='hidden' name='remember' value='true' />
             <div className='rounded-md shadow-sm -space-y-px'>
-              <TextInput />
-              <PasswordInput rounded={true} />
+              <Input type='text' placeholder='name' />
+              <Input type='password' placeholder='password' rounded={true} />
             </div>
             <Actions link='Already have an account?' text='Sign Up' />
           </form>
